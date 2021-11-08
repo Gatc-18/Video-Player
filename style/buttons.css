@@ -1,0 +1,29 @@
+.styleButton {
+    inline-size: 32px;
+    block-size: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.styleButton:active{
+    transform: scale(.9);
+}
+
+
+#pause {
+    background-image: url(../images/pause.svg);
+}
+
+#play {
+    background-image: url(../images/play.svg);
+}
+
+#backward {
+    background-image: url(../images/-10.svg);
+}
+
+#forward {
+    background-image: url(../images/+10.svg);
+}
